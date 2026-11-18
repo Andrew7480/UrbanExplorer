@@ -1,0 +1,11 @@
+# Xcode: datos de usuario y compilaciones
+xcuserdata/
+*.xcuserstate
+DerivedData/
+Build/
+
+
+# macOS
+.DS_Store
+
+# NO ignores Package.resolved:
