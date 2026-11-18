@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AC617CD430AE08D900B07FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC617CBE30AE08D500B07FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC617CC530AE08D500B07FCC;
+			remoteInfo = UrbanExplorer;
+		};
+		AC617CDE30AE08D900B07FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC617CBE30AE08D500B07FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC617CC530AE08D500B07FCC;
+			remoteInfo = UrbanExplorer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC617CC630AE08D500B07FCC /* UrbanExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC617CD330AE08D900B07FCC /* UrbanExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbanExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC617CDD30AE08D900B07FCC /* UrbanExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbanExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AC617CC830AE08D500B07FCC /* UrbanExplorer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UrbanExplorer;
+			sourceTree = "<group>";
+		};
+		AC617CD630AE08D900B07FCC /* UrbanExplorerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UrbanExplorerTests;
+			sourceTree = "<group>";
+		};
+		AC617CE030AE08D900B07FCC /* UrbanExplorerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UrbanExplorerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC617CC330AE08D500B07FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AC617CD030AE08D900B07FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AC617CDA30AE08D900B07FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC617CBD30AE08D500B07FCC = {
+			isa = PBXGroup;
+			children = (
+				AC617CC830AE08D500B07FCC /* UrbanExplorer */,
+				AC617CD630AE08D900B07FCC /* UrbanExplorerTests */,
+				AC617CE030AE08D900B07FCC /* UrbanExplorerUITests */,
+				AC617CC730AE08D500B07FCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC617CC730AE08D500B07FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC617CC630AE08D500B07FCC /* UrbanExplorer.app */,
+				AC617CD330AE08D900B07FCC /* UrbanExplorerTests.xctest */,
+				AC617CDD30AE08D900B07FCC /* UrbanExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC617CC530AE08D500B07FCC /* UrbanExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC617CE530AE08D900B07FCC /* Build configuration list for PBXNativeTarget "UrbanExplorer" */;
+			buildPhases = (
+				AC617CC230AE08D500B07FCC /* Sources */,
+				AC617CC330AE08D500B07FCC /* Frameworks */,
+				AC617CC430AE08D500B07FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC617CC830AE08D500B07FCC /* UrbanExplorer */,
+			);
+			name = UrbanExplorer;
+			productName = UrbanExplorer;
+			productReference = AC617CC630AE08D500B07FCC /* UrbanExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC617CD230AE08D900B07FCC /* UrbanExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC617CE830AE08D900B07FCC /* Build configuration list for PBXNativeTarget "UrbanExplorerTests" */;
+			buildPhases = (
+				AC617CCF30AE08D900B07FCC /* Sources */,
+				AC617CD030AE08D900B07FCC /* Frameworks */,
+				AC617CD130AE08D900B07FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC617CD530AE08D900B07FCC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC617CD630AE08D900B07FCC /* UrbanExplorerTests */,
+			);
+			name = UrbanExplorerTests;
+			productName = UrbanExplorerTests;
+			productReference = AC617CD330AE08D900B07FCC /* UrbanExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC617CDC30AE08D900B07FCC /* UrbanExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC617CEB30AE08D900B07FCC /* Build configuration list for PBXNativeTarget "UrbanExplorerUITests" */;
+			buildPhases = (
+				AC617CD930AE08D900B07FCC /* Sources */,
+				AC617CDA30AE08D900B07FCC /* Frameworks */,
+				AC617CDB30AE08D900B07FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC617CDF30AE08D900B07FCC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC617CE030AE08D900B07FCC /* UrbanExplorerUITests */,
+			);
+			name = UrbanExplorerUITests;
+			productName = UrbanExplorerUITests;
+			productReference = AC617CDD30AE08D900B07FCC /* UrbanExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC617CBE30AE08D500B07FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					AC617CC530AE08D500B07FCC = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					AC617CD230AE08D900B07FCC = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = AC617CC530AE08D500B07FCC;
+					};
+					AC617CDC30AE08D900B07FCC = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = AC617CC530AE08D500B07FCC;
+					};
+				};
+			};
+			buildConfigurationList = AC617CC130AE08D500B07FCC /* Build configuration list for PBXProject "UrbanExplorer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC617CBD30AE08D500B07FCC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC617CC730AE08D500B07FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC617CC530AE08D500B07FCC /* UrbanExplorer */,
+				AC617CD230AE08D900B07FCC /* UrbanExplorerTests */,
+				AC617CDC30AE08D900B07FCC /* UrbanExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC617CC430AE08D500B07FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AC617CD130AE08D900B07FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AC617CDB30AE08D900B07FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC617CC230AE08D500B07FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AC617CCF30AE08D900B07FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AC617CD930AE08D900B07FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC617CD530AE08D900B07FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC617CC530AE08D500B07FCC /* UrbanExplorer */;
+			targetProxy = AC617CD430AE08D900B07FCC /* PBXContainerItemProxy */;
+		};
+		AC617CDF30AE08D900B07FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC617CC530AE08D500B07FCC /* UrbanExplorer */;
+			targetProxy = AC617CDE30AE08D900B07FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC617CE330AE08D900B07FCC /* Debug configuration for PBXProject "UrbanExplorer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC617CE430AE08D900B07FCC /* Release configuration for PBXProject "UrbanExplorer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC617CE630AE08D900B07FCC /* Debug configuration for PBXNativeTarget "UrbanExplorer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.UrbanExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC617CE730AE08D900B07FCC /* Release configuration for PBXNativeTarget "UrbanExplorer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.UrbanExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC617CE930AE08D900B07FCC /* Debug configuration for PBXNativeTarget "UrbanExplorerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.UrbanExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbanExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UrbanExplorer";
+			};
+			name = Debug;
+		};
+		AC617CEA30AE08D900B07FCC /* Release configuration for PBXNativeTarget "UrbanExplorerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.UrbanExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbanExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UrbanExplorer";
+			};
+			name = Release;
+		};
+		AC617CEC30AE08D900B07FCC /* Debug configuration for PBXNativeTarget "UrbanExplorerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.UrbanExplorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UrbanExplorer;
+			};
+			name = Debug;
+		};
+		AC617CED30AE08D900B07FCC /* Release configuration for PBXNativeTarget "UrbanExplorerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucam.UrbanExplorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UrbanExplorer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC617CC130AE08D500B07FCC /* Build configuration list for PBXProject "UrbanExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC617CE330AE08D900B07FCC /* Debug configuration for PBXProject "UrbanExplorer" */,
+				AC617CE430AE08D900B07FCC /* Release configuration for PBXProject "UrbanExplorer" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AC617CE530AE08D900B07FCC /* Build configuration list for PBXNativeTarget "UrbanExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC617CE630AE08D900B07FCC /* Debug configuration for PBXNativeTarget "UrbanExplorer" */,
+				AC617CE730AE08D900B07FCC /* Release configuration for PBXNativeTarget "UrbanExplorer" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AC617CE830AE08D900B07FCC /* Build configuration list for PBXNativeTarget "UrbanExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC617CE930AE08D900B07FCC /* Debug configuration for PBXNativeTarget "UrbanExplorerTests" */,
+				AC617CEA30AE08D900B07FCC /* Release configuration for PBXNativeTarget "UrbanExplorerTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AC617CEB30AE08D900B07FCC /* Build configuration list for PBXNativeTarget "UrbanExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC617CEC30AE08D900B07FCC /* Debug configuration for PBXNativeTarget "UrbanExplorerUITests" */,
+				AC617CED30AE08D900B07FCC /* Release configuration for PBXNativeTarget "UrbanExplorerUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC617CBE30AE08D500B07FCC /* Project object */;
+	validationLevel = 1;
+}
