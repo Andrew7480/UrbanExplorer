@@ -2,10 +2,7 @@
 xcuserdata/
 *.xcuserstate
 DerivedData/
-Build/
-
-
+build/
 # macOS
 .DS_Store
-
-# NO ignores Package.resolved:
+# NO ignores Package.resolved: fija las versiones de Kingfisher, Lottie y Firebase
