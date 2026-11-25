@@ -1,0 +1,217 @@
+[
+  {
+    "id": "A1B2C3D4-E5F6-4890-ABCD-EF1234567890",
+    "title": "Catedral de Murcia",
+    "description": "Catedral de Santa María, joya arquitectónica en el corazón de Murcia con impresionante fachada barroca del siglo XVIII y una torre de 93 metros.",
+    "category": "Monumento",
+    "rating": 4.8,
+    "visitCount": 15230,
+    "isFavorite": true,
+    "createdAt": "2024-03-15T10:30:00Z",
+    "tags": ["Arte", "Barroco", "Centro histórico"],
+    "imageURL": [
+      "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=1080",
+      "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=1080"
+    ],
+    "mainImageURL": "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=400",
+    "webURL": "https://www.catedralmurcia.com",
+    "latitude": 37.9838,
+    "longitude": -1.1283,
+    "reviews": [
+      {
+        "autor": "Elena Gómez",
+        "date": "2024-04-02T16:15:00Z",
+        "comment": "La fachada principal al atardecer es espectacular. Muy recomendable subir a la torre.",
+        "points": 5
+      },
+      {
+        "autor": "Carlos Ruiz",
+        "date": "2024-05-10T11:20:00Z",
+        "comment": "Imprescindible si visitas el centro de la ciudad.",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "B2C3D4E5-F6A7-4901-BCDE-F12345678901",
+    "title": "Jardín de Floridablanca",
+    "description": "Primer jardín público creado en España en el siglo XIX, situado en el barrio del Carmen y famoso por sus ficus centenarios.",
+    "category": "Parque",
+    "rating": 4.6,
+    "visitCount": 8940,
+    "isFavorite": false,
+    "createdAt": "2024-03-18T09:00:00Z",
+    "tags": ["Naturaleza", "Histórico", "Paseo"],
+    "imageURL": [
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1080"
+    ],
+    "mainImageURL": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400",
+    "webURL": "https://www.turismodemurcia.es",
+    "latitude": 37.9796,
+    "longitude": -1.1292,
+    "reviews": [
+      {
+        "autor": "Lucía Méndez",
+        "date": "2024-04-12T18:45:00Z",
+        "comment": "Mucha sombra y tranquilidad gracias a sus árboles gigantes.",
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "C3D4E5F6-A7B8-4012-CDEF-123456789012",
+    "title": "Museo Salzillo",
+    "description": "Museo dedicado a la obra del escultor barroco murciano Francisco Salzillo, destacando sus famosos pasos procesionales de Semana Santa.",
+    "category": "Museo",
+    "rating": 4.7,
+    "visitCount": 6420,
+    "isFavorite": false,
+    "createdAt": "2024-03-20T12:15:00Z",
+    "tags": ["Escultura", "Cultura", "Barroco"],
+    "imageURL": [
+      "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=1080"
+    ],
+    "mainImageURL": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=400",
+    "webURL": "https://www.museosalzillo.es",
+    "latitude": 37.9863,
+    "longitude": -1.1376,
+    "reviews": [
+      {
+        "autor": "Javier Morales",
+        "date": "2024-06-01T10:30:00Z",
+        "comment": "El nivel de detalle de las tallas de madera y el belén napolitano es increíble.",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "D4E5F6A7-B8C9-4123-DEF0-234567890123",
+    "title": "Real Casino de Murcia",
+    "description": "Edificio emblemático fundado en 1847 que combina estilos arquitectónicos como el patio árabe, el salón de baile neobarroco y su biblioteca inglesa.",
+    "category": "Monumento",
+    "rating": 4.9,
+    "visitCount": 14100,
+    "isFavorite": true,
+    "createdAt": "2024-03-22T15:45:00Z",
+    "tags": ["Arquitectura", "Historia", "Interior"],
+    "imageURL": [
+      "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=1080"
+    ],
+    "mainImageURL": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=400",
+    "webURL": "https://casinomurcia.com",
+    "latitude": 37.9849,
+    "longitude": -1.1288,
+    "reviews": [
+      {
+        "autor": "Marta Navarro",
+        "date": "2024-05-19T13:00:00Z",
+        "comment": "Cada sala sorprende más que la anterior. Audioguía muy completa.",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "E5F6A7B8-C9D0-4234-EF01-345678901234",
+    "title": "Restaurante El Churra",
+    "description": "Referente de la gastronomía tradicional murciana desde 1958, especializado en arroces, carnes a la brasa y productos de la huerta.",
+    "category": "Restaurante",
+    "rating": 4.5,
+    "visitCount": 11300,
+    "isFavorite": false,
+    "createdAt": "2024-03-25T14:00:00Z",
+    "tags": ["Gastronomía", "Arroces", "Tradicional"],
+    "imageURL": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1080"
+    ],
+    "mainImageURL": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "webURL": "https://www.elchurra.net",
+    "latitude": 37.9912,
+    "longitude": -1.1265,
+    "reviews": [
+      {
+        "autor": "Antonio Pérez",
+        "date": "2024-06-14T15:30:00Z",
+        "comment": "Excelente arroz con conejo y caracoles. Servicio impecable.",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "F6A7B8C9-D0E1-4345-F012-456789012345",
+    "title": "Parque Regional El Valle y Carrascoy",
+    "description": "Pulmón verde periurbano ideal para el senderismo, con vistas panorámicas de toda la vega del río Segura y el Santuario de la Fuensanta.",
+    "category": "Parque",
+    "rating": 4.8,
+    "visitCount": 19500,
+    "isFavorite": true,
+    "createdAt": "2024-03-28T08:30:00Z",
+    "tags": ["Senderismo", "Mirador", "Montaña"],
+    "imageURL": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1080"
+    ],
+    "mainImageURL": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400",
+    "webURL": "https://www.murcianatural.carm.es",
+    "latitude": 37.9347,
+    "longitude": -1.1355,
+    "reviews": [
+      {
+        "autor": "Sofía Torres",
+        "date": "2024-04-28T11:10:00Z",
+        "comment": "Rutas bien señalizadas para todos los niveles y vistas espectaculares.",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "A7B8C9D0-E1F2-4456-0123-567890123456",
+    "title": "Teatro Romano de Cartagena",
+    "description": "Imponente teatro construido entre los años 5 y 1 a.C. en tiempos del emperador Augusto, descubierto en 1988 y restaurado con museo integrado.",
+    "category": "Monumento",
+    "rating": 4.9,
+    "visitCount": 24800,
+    "isFavorite": true,
+    "createdAt": "2024-04-01T11:00:00Z",
+    "tags": ["Romano", "Arqueología", "Patrimonio"],
+    "imageURL": [
+      "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1080"
+    ],
+    "mainImageURL": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=400",
+    "webURL": "https://teatroromanocartagena.org",
+    "latitude": 37.5994,
+    "longitude": -0.9841,
+    "reviews": [
+      {
+        "autor": "David López",
+        "date": "2024-05-03T17:20:00Z",
+        "comment": "La museografía subterránea hasta llegar a las gradas es brillante.",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "B8C9D0E1-F2A3-4567-1234-678901234567",
+    "title": "Museo Nacional de Arqueología Subacuática (ARQVA)",
+    "description": "Centro de referencia mundial en patrimonio cultural subacuático situado en el puerto de Cartagena, hogar del tesoro de la fragata Mercedes.",
+    "category": "Museo",
+    "rating": 4.7,
+    "visitCount": 12750,
+    "isFavorite": false,
+    "createdAt": "2024-04-05T10:15:00Z",
+    "tags": ["Marítimo", "Historia", "Interactivo"],
+    "imageURL": [
+      "https://images.unsplash.com/photo-1565060169194-19fabf63012c?w=1080"
+    ],
+    "mainImageURL": "https://images.unsplash.com/photo-1565060169194-19fabf63012c?w=400",
+    "webURL": "https://www.cultura.gob.es/mnarqua",
+    "latitude": 37.5968,
+    "longitude": -0.9866,
+    "reviews": [
+      {
+        "autor": "Paula Sánchez",
+        "date": "2024-06-20T12:40:00Z",
+        "comment": "Muy didáctico y moderno, ideal para ir con familia.",
+        "points": 4
+      }
+    ]
+  }
+]
