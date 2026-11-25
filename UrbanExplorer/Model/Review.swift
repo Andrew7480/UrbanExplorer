@@ -25,7 +25,7 @@ struct Review: Codable, Identifiable, Hashable {
         self.autor = autor
         self.date = date
         self.comment = comment
-        self.points = points
+        self.points = min(max(points, 1), 5)
     }
 
     init(from decoder: Decoder) throws {
@@ -34,6 +34,15 @@ struct Review: Codable, Identifiable, Hashable {
         self.autor = try container.decode(String.self, forKey: .autor)
         self.date = try container.decode(Date.self, forKey: .date)
         self.comment = try container.decode(String.self, forKey: .comment)
-        self.points = try container.decode(Int.self, forKey: .points)
+
+        let decodedPoints = try container.decode(Int.self, forKey: .points)
+        guard (1...5).contains(decodedPoints) else {
+            throw DecodingError.dataCorruptedError(
+                forKey: .points,
+                in: container,
+                debugDescription: "La puntuación de la reseña (\(decodedPoints)) debe estar entre 1 y 5."
+            )
+        }
+        self.points = decodedPoints
     }
 }
